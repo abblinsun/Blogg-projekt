@@ -1,0 +1,25 @@
+/* purgecss start ignore */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+/* purgecss end ignore */
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@tailwind base;
+
+@layer base {
+  h1 {
+    @apply text-5xl mt-10 mb-2;
+  }
+  h2 {
+    @apply text-4xl mt-8 mb-2;
+  }
+  h3{
+    @apply text-xl mt-2
+  }
+}
