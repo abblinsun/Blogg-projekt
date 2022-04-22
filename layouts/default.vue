@@ -1,7 +1,12 @@
 <template>
   <div>
-    <NavBar />
+    <Head />
     <nuxt />
-    <Footer />
+    <Foot />
   </div>
 </template>
+
+<script>
+import Head from "../components/NavBar.vue"
+import Foot from "../components/Footer.vue"
+</script>
